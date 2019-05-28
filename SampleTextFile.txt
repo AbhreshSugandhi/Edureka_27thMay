@@ -1,1 +1,3 @@
-Checking Git Changes process
+
+
+Deleted the content
