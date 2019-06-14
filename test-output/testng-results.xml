@@ -1,56 +1,210 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="ParallelTesting" duration-ms="26879" started-at="2019-06-12T03:08:56Z" finished-at="2019-06-12T03:09:23Z">
+  <suite name="Default suite" duration-ms="73400" started-at="2019-06-14T03:08:13Z" finished-at="2019-06-14T03:09:26Z">
     <groups>
     </groups>
-    <test name="Chrome2" duration-ms="19325" started-at="2019-06-12T03:08:56Z" finished-at="2019-06-12T03:09:15Z">
-      <class name="module6.NewTest">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:module6.NewTest@46daef40]" name="OpenBrowser" is-config="true" duration-ms="5019" started-at="2019-06-12T03:08:51Z" finished-at="2019-06-12T03:08:56Z">
+    <test name="Default test" duration-ms="73400" started-at="2019-06-14T03:08:13Z" finished-at="2019-06-14T03:09:26Z">
+      <class name="module9.TestCase.DDT">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:module9.TestCase.DDT@23d2a7e8]" name="OpenBrowser" is-config="true" duration-ms="15769" started-at="2019-06-14T03:08:13Z" finished-at="2019-06-14T03:08:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="OpenAUT()[pri:0, instance:module6.NewTest@46daef40]" name="OpenAUT" is-config="true" duration-ms="2504" started-at="2019-06-12T03:08:56Z" finished-at="2019-06-12T03:08:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenAUT -->
-        <test-method status="PASS" signature="TestLogin()[pri:0, instance:module6.NewTest@46daef40]" name="TestLogin" duration-ms="11592" started-at="2019-06-12T03:08:59Z" finished-at="2019-06-12T03:09:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestLogin -->
-        <test-method status="PASS" signature="Logout()[pri:0, instance:module6.NewTest@46daef40]" name="Logout" is-config="true" duration-ms="5198" started-at="2019-06-12T03:09:10Z" finished-at="2019-06-12T03:09:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:module6.NewTest@46daef40]" name="CloseBrowser" is-config="true" duration-ms="1390" started-at="2019-06-12T03:09:23Z" finished-at="2019-06-12T03:09:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- module6.NewTest -->
-    </test> <!-- Chrome2 -->
-    <test name="Chrome1" duration-ms="26879" started-at="2019-06-12T03:08:56Z" finished-at="2019-06-12T03:09:23Z">
-      <class name="module6.Scenario3">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module6.Scenario3@3dfc5fb8]" name="openBrowser" duration-ms="11192" started-at="2019-06-12T03:08:56Z" finished-at="2019-06-12T03:09:07Z">
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@23d2a7e8]" name="FormFill" duration-ms="6228" started-at="2019-06-14T03:08:32Z" data-provider="testDataFeed" finished-at="2019-06-14T03:08:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jain]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gujrat]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="login_TestCase()[pri:1, instance:module6.Scenario3@3dfc5fb8]" name="login_TestCase" duration-ms="12947" started-at="2019-06-12T03:09:07Z" finished-at="2019-06-12T03:09:20Z">
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@23d2a7e8]" name="FormFill" duration-ms="5954" started-at="2019-06-14T03:08:38Z" data-provider="testDataFeed" finished-at="2019-06-14T03:08:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joseph]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_TestCase -->
-        <test-method status="PASS" signature="closeBrowser()[pri:3, instance:module6.Scenario3@3dfc5fb8]" name="closeBrowser" duration-ms="2620" started-at="2019-06-12T03:09:20Z" finished-at="2019-06-12T03:09:23Z">
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@23d2a7e8]" name="FormFill" duration-ms="5939" started-at="2019-06-14T03:08:44Z" data-provider="testDataFeed" finished-at="2019-06-14T03:08:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sumit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pandey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- module6.Scenario3 -->
-    </test> <!-- Chrome1 -->
-  </suite> <!-- ParallelTesting -->
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@23d2a7e8]" name="FormFill" duration-ms="5794" started-at="2019-06-14T03:08:50Z" data-provider="testDataFeed" finished-at="2019-06-14T03:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Desuza]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@23d2a7e8]" name="FormFill" duration-ms="5734" started-at="2019-06-14T03:08:56Z" data-provider="testDataFeed" finished-at="2019-06-14T03:09:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@23d2a7e8]" name="FormFill" duration-ms="5865" started-at="2019-06-14T03:09:01Z" data-provider="testDataFeed" finished-at="2019-06-14T03:09:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gujrat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@23d2a7e8]" name="FormFill" duration-ms="5715" started-at="2019-06-14T03:09:07Z" data-provider="testDataFeed" finished-at="2019-06-14T03:09:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Joseph]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@23d2a7e8]" name="FormFill" duration-ms="5814" started-at="2019-06-14T03:09:13Z" data-provider="testDataFeed" finished-at="2019-06-14T03:09:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pandey]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sumit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT@23d2a7e8]" name="FormFill" duration-ms="5783" started-at="2019-06-14T03:09:19Z" data-provider="testDataFeed" finished-at="2019-06-14T03:09:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desuza]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:module9.TestCase.DDT@23d2a7e8]" name="CloseBrowser" is-config="true" duration-ms="1871" started-at="2019-06-14T03:09:25Z" finished-at="2019-06-14T03:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- module9.TestCase.DDT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
