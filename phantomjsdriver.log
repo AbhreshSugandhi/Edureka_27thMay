@@ -1,0 +1,28 @@
+[INFO  - 2019-06-18T03:13:06.760Z] GhostDriver - Main - running on port 18270
+[INFO  - 2019-06-18T03:13:07.724Z] Session [feb6ebc0-9176-11e9-b752-bd05aada170d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-06-18T03:13:07.725Z] Session [feb6ebc0-9176-11e9-b752-bd05aada170d] - page.customHeaders:  - {}
+[INFO  - 2019-06-18T03:13:07.725Z] Session [feb6ebc0-9176-11e9-b752-bd05aada170d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-06-18T03:13:07.729Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: feb6ebc0-9176-11e9-b752-bd05aada170d
+[ERROR - 2019-06-18T03:13:09.192Z] Session [feb6ebc0-9176-11e9-b752-bd05aada170d] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2019-06-18T03:13:09.192Z] Session [feb6ebc0-9176-11e9-b752-bd05aada170d] - page.onError - stack:
+  global code (http://seleniumautomationpractice.blogspot.com/2017/10/functionisogramigoogleanalyticsobjectri.html:2747)
+[ERROR - 2019-06-18T03:13:09.425Z] Session [feb6ebc0-9176-11e9-b752-bd05aada170d] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2019-06-18T03:13:09.426Z] Session [feb6ebc0-9176-11e9-b752-bd05aada170d] - page.onError - stack:
+  global code (http://seleniumautomationpractice.blogspot.com/2017/10/functionisogramigoogleanalyticsobjectri.html:2899)
+[ERROR - 2019-06-18T03:13:09.427Z] Session [feb6ebc0-9176-11e9-b752-bd05aada170d] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2019-06-18T03:13:09.427Z] Session [feb6ebc0-9176-11e9-b752-bd05aada170d] - page.onError - stack:
+  global code (http://seleniumautomationpractice.blogspot.com/2017/10/functionisogramigoogleanalyticsobjectri.html:2927)
+[ERROR - 2019-06-18T03:13:09.428Z] Session [feb6ebc0-9176-11e9-b752-bd05aada170d] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2019-06-18T03:13:09.428Z] Session [feb6ebc0-9176-11e9-b752-bd05aada170d] - page.onError - stack:
+  global code (http://seleniumautomationpractice.blogspot.com/2017/10/functionisogramigoogleanalyticsobjectri.html:2955)
+[INFO  - 2019-06-18T03:18:06.764Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-06-18T03:23:06.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-06-18T03:28:06.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-06-18T03:33:06.766Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-06-18T03:38:06.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-06-18T03:43:06.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-06-18T03:48:06.766Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-06-18T03:53:06.767Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-06-18T05:25:56.507Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-06-18T05:30:56.507Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-06-18T05:48:52.510Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

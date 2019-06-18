@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Main Test Suite]" parallel="tests">
+  <test thread-count="5" name="TestNG Grid3(failed)" parallel="tests">
+    <parameter name="b" value="ie"/>
+    <classes>
+      <class name="module7.TestGridClass">
+        <methods>
+          <include name="calculatepercent"/>
+          <include name="closeBrowser"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- module7.TestGridClass -->
+    </classes>
+  </test> <!-- TestNG Grid3(failed) -->
+  <test thread-count="5" name="TestNG Grid1(failed)" parallel="tests">
+    <parameter name="b" value="firefox"/>
+    <classes>
+      <class name="module7.TestGridClass">
+        <methods>
+          <include name="calculatepercent"/>
+          <include name="closeBrowser"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- module7.TestGridClass -->
+    </classes>
+  </test> <!-- TestNG Grid1(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->
