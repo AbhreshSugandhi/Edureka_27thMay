@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="module6.Dependency">
+      <class name="module9.TestCase.DDT1">
         <methods>
-          <include name="Logout"/>
-          <include name="OpenBrowser"/>
           <include name="CloseBrowser"/>
-          <include name="OpenAUT"/>
-          <include name="Login"/>
+          <include name="OpenBrowser"/>
+          <include name="FormFill"/>
         </methods>
-      </class> <!-- module6.Dependency -->
+      </class> <!-- module9.TestCase.DDT1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

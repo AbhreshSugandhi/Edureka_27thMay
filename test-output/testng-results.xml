@@ -1,55 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36065" started-at="2019-06-18T02:31:58Z" finished-at="2019-06-18T02:32:34Z">
+  <suite name="Default suite" duration-ms="27651" started-at="2019-06-24T11:33:12Z" finished-at="2019-06-24T11:33:40Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="36065" started-at="2019-06-18T02:31:58Z" finished-at="2019-06-18T02:32:34Z">
-      <class name="module7.GridExampleTest">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module7.GridExampleTest@23d2a7e8]" name="openBrowser" is-config="true" duration-ms="10144" started-at="2019-06-18T02:31:58Z" finished-at="2019-06-18T02:32:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pc1]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="27651" started-at="2019-06-24T11:33:12Z" finished-at="2019-06-24T11:33:40Z">
+      <class name="module9.TestCase.DDT1">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:module9.TestCase.DDT1@26a7b76d]" name="OpenBrowser" is-config="true" duration-ms="22166" started-at="2019-06-24T11:33:12Z" finished-at="2019-06-24T11:33:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testGooglePageTitle()[pri:0, instance:module7.GridExampleTest@23d2a7e8]" name="testGooglePageTitle" duration-ms="18560" started-at="2019-06-18T02:32:08Z" finished-at="2019-06-18T02:32:27Z">
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="SKIP" signature="FormFill(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.TestCase.DDT1@26a7b76d]" name="FormFill" duration-ms="0" started-at="2019-06-24T11:33:38Z" data-provider="testDataFeed" finished-at="2019-06-24T11:33:38Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+at module9.TestCase.DDT1.testDataFeed(DDT1.java:59)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGooglePageTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module7.GridExampleTest@23d2a7e8]" name="closeBrowser" is-config="true" duration-ms="7285" started-at="2019-06-18T02:32:27Z" finished-at="2019-06-18T02:32:34Z">
+        </test-method> <!-- FormFill -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:module9.TestCase.DDT1@26a7b76d]" name="CloseBrowser" is-config="true" duration-ms="1887" started-at="2019-06-24T11:33:38Z" finished-at="2019-06-24T11:33:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- module7.GridExampleTest -->
-    </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="36033" started-at="2019-06-18T02:31:58Z" finished-at="2019-06-18T02:32:34Z">
-      <class name="module7.GridExampleTest">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module7.GridExampleTest@ed9d034]" name="openBrowser" is-config="true" duration-ms="10143" started-at="2019-06-18T02:31:58Z" finished-at="2019-06-18T02:32:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pc1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testGooglePageTitle()[pri:0, instance:module7.GridExampleTest@ed9d034]" name="testGooglePageTitle" duration-ms="18742" started-at="2019-06-18T02:32:08Z" finished-at="2019-06-18T02:32:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGooglePageTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module7.GridExampleTest@ed9d034]" name="closeBrowser" is-config="true" duration-ms="7068" started-at="2019-06-18T02:32:27Z" finished-at="2019-06-18T02:32:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- module7.GridExampleTest -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- module9.TestCase.DDT1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
